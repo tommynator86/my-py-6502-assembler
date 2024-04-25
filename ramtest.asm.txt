@@ -1,0 +1,12 @@
+start:
+LDA #$55
+STA $6000
+LDA #$FF
+STA $6001
+LDA #$AA
+STA $6002
+
+LDA $6000
+LDA $6001
+LDA $6002
+JMP start
